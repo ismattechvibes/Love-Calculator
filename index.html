@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="love.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bokor&family=Yuji+Mai&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bokor&family=Pacifico&family=Yuji+Mai&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet">
+
+    <title>Love Calculator</title>
+</head>
+<body>
+
+    <div class="hero">
+        <h1 class="yuji-mai-regular">YOUR LOVE FAIRY</h1>
+    </div>
+     
+    <form class="form">
+        <div class="inputt">
+        <input type="text" id="lover1" placeholder="Enter Lover 1's Name" required>
+        <input type="text" id="lover2" placeholder="Enter Lover 2's Name" required>
+        </div>
+        
+        <div class="but">
+        <button type="button" id="calculateLove" onclick="calculateCompatibility()">Check Compatibilitby</button>
+        <button type="button" onclick="clearFields()">CLEAR</button>
+        </div>
+    </form>
+    
+    <div>
+        <p id="out">RESULT ❤💕</p>
+    </div>
+    
+    <div class="image">
+        <div class="im1"><img src="love.png" alt="..." height="352px"></div>
+        <img src="./images/couples1.png" alt="..." height="320px">
+        <div class="im3"><img src="love.png" alt="..." height="352px"></div>
+    </div>
+    
+    <!-- Audio elements -->
+    
+    <audio id="medium-love-audio" src="" ></audio>
+    <audio id="low-love-audio" src="./images/fail-144746.mp3"></audio>
+    <audio id="high-love-audio" src="/crowd-clap.mp3"></audio>
+    
+    <script src="love.js"></script>
+
+    <footer>
+        <p>Made By &copy; ISMAT 2024</p>
+    </footer>
+</body>
+</html>
